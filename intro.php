@@ -18,6 +18,19 @@ Resource
 
 The var_dump() function returns the data type and the value: */
 
+/*
+ String
+
+A string is a sequence of characters, like "Hello world!".
+
+Strings
+Strings in PHP are surrounded by either double quotation marks, or single quotation marks.
+
+ExampleGet your own PHP Server
+echo "Hello";
+echo 'Hello';
+*/
+
 
 
 ?>
