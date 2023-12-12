@@ -13,7 +13,7 @@ foreach - loops through a block of code for each element in an array
 // echo $x; -->
 
 
-<!doctype html>
+ <!doctype html>
 <html lang="en">
 
 <head>
@@ -33,7 +33,7 @@ foreach - loops through a block of code for each element in an array
     <div class="container my-3">
         <div class="row">
             <?php 
-               for($i=1; $i<=12 ; $i++){ 
+               for($i=1; $i<=5 ; $i++){ 
                 ?>
             <div class="col-md-4 my-2">
                 <div class="card">
@@ -51,10 +51,8 @@ foreach - loops through a block of code for each element in an array
     </div>
 
 
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
 
-</html>
+</html> 
