@@ -14,7 +14,7 @@ foreach - loops through a block of code for each element in an array
 
 
 <!doctype html>
-<html lang="en">
+<html lang="en" oncontextmenu="return false">
 
 <head>
     <!-- Required meta tags -->
@@ -27,11 +27,15 @@ foreach - loops through a block of code for each element in an array
 </head>
 <body>
     <div class="container my-3">
-        <div class="row">
+        <div class="row justify-content-center ">
+            <?php
+                for($l=1; $l<=10; $l++)
+                {
+            ?>
             <div class="col-md-6 my-2">
                 <div class="card">
                     <div class="card-header">
-                        <h5>Class 1</h5>
+                        <h5 class="text-center">Class <?php echo $l ?></h5>
                     </div>
                     <div class="card-body">
                         <div class="row">
@@ -62,9 +66,16 @@ foreach - loops through a block of code for each element in an array
                     </div>
                 </div>
             </div>
+            <?php }?>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+   <script>
+    document.addEventListener('contextmenu',function(e){
+        e.preventDefault();
+    })
+   </script>
 </body>
+
 
 </html>
